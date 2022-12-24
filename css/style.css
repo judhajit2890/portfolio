@@ -1343,6 +1343,11 @@ nav .menubar:hover{
     .photoshop .landingpage .landing .image:hover img{
         transform: scale(1.2);
     }
+    .photoshop .landingpage .popup-image1 img{
+        top: 38%;
+        width: 90%;
+       
+    }
     .photoshop .websitepage{
         /* background-color: red; */
         height: 850px;
@@ -1402,7 +1407,7 @@ nav .menubar:hover{
         border: solid 35px #01c38d;
         margin-top: 2rem;
         margin-bottom: 2rem;
-        margin-left: 1rem;
+        margin-left: 1.2rem;
       
     }
     /*---header end---------*/
@@ -1598,6 +1603,9 @@ nav .menubar:hover{
         font-size: 1.2rem;
         margin-bottom: -5px;
     }
+    .project .allprojects .projectbox .projectdetails  .ph2{
+        margin-bottom: 1rem;
+    }
     .project .allprojects .projectbox .projectdetails h3{
         font-size: 1rem;
         margin-bottom: 8px;
@@ -1702,6 +1710,11 @@ nav .menubar:hover{
     .photoshop .landingpage .landing .image:hover img{
         transform: scale(1.2);
     }
+    .photoshop .landingpage .popup-image1 img{
+        top: 40%;
+        width: 90%;
+        
+    }
     .photoshop .websitepage{
         /* background-color: red; */
         height: 1250px;
@@ -1743,7 +1756,7 @@ nav .menubar:hover{
         display: none;
     }
     .photoshop .websitepage .popup-image2 img{
-        width:25%;  
+        width:40%;  
     }
 
    
