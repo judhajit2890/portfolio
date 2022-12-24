@@ -1682,7 +1682,7 @@ nav .menubar:hover{
 
     .photoshop .landingpage{
         /* background-color: red; */
-        height: 1300px;
+        height: 1350px;
     }
     .photoshop .landingpage .landing{
         margin-top: 2rem;
@@ -1721,7 +1721,7 @@ nav .menubar:hover{
     }
    
     .photoshop .websitepage h2{
-        font-size: 1.5rem;
+        font-size: .8rem;
         font-weight: 200;
         
     }
