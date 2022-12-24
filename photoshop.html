@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logo/mylogo3.png" type="image/x-icon">
+    <title>FRONT-END PORTFOLIO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+<body>
+<section class="photoshop">
+    <div class="container">
+        <h1>Photoshop Layouts</h1>
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 col-xs-12">
+                <div class="landingpage">
+                    <h2>Landing Pages</h2>
+                    <div class="landing">
+                        <div class="image"><img src="./img/work/land1.png"></div>
+                        <div class="image"><img src="./img/work/land2.png"></div>
+                        <div class="image"><img src="./img/work/land3.png"></div>
+                        <div class="image"><img src="./img/work/land4.png"></div>
+                        <div class="image extra"><img src="./img/work/land5.png"></div>
+                    </div>
+                    <div class="popup-image1">
+                        <span>&times;</span>
+                        <img src="./img/work/land1.png" alt="">
+                    </div>
+                </div>
+                
+                
+            </div>
+            <div class="col-lg-12 col-sm-12 col-xs-12">
+                <div class="websitepage">
+                    <h2>Website Layout</h2>
+                    <div class="website">
+                        <div class="image quad"><img src="./img/work/web2.png"></div>
+                        <div class="image yamm"><img src="./img/work/web3.png"></div>
+                        <div class="image thar"><img src="./img/work/web4.png"></div>
+                        <div class="image gym"><img src="./img/work/web1.png"></div>
+                        <div class="image extra"><img src="./img/work/web5.png"></div>
+                    </div>
+                    <div class="popup-image2">
+                        <span>&times;</span>
+                        <img src="./img/work/web1.png"   alt="">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+
+</section>
+ <!--------footer start---------------->
+
+
+ <section class="footer" id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 col-xs-12">
+                <div class="text">
+                    <p>&copyCopyright 2022-2023.Judhajit-<span>PORTFOLIO</span>.</p>
+                    <div class="social">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-square-github"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#top"><i class="fa-solid fa-arrow-up"></i></a>
+
+</section>
+<!--------footer end---------------->
+
+
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+
+    
+    <script>
+        //----------------------photoshop page popup-----------------------------------------//
+        //------landing page----------//
+        document.querySelectorAll('.landing  img').forEach(image =>{
+            image.onclick = () =>{
+            document.querySelector('.popup-image1').style.display = 'block'; 
+            document.querySelector('.popup-image1 img').src =  image.getAttribute('src');
+            
+            }
+            
+        });
+        document.querySelector('.popup-image1 span').onclick = () =>{
+            document.querySelector('.popup-image1').style.display = 'none'; 
+
+        }
+
+
+        //------website----------//
+        document.querySelectorAll('.website  img').forEach(image =>{
+            image.onclick = () =>{
+            document.querySelector('.popup-image2').style.display = 'block'; 
+            document.querySelector('.popup-image2 img').src =  image.getAttribute('src');
+            
+            }
+            
+        });
+        document.querySelector('.popup-image2 span').onclick = () =>{
+            document.querySelector('.popup-image2').style.display = 'none'; 
+
+        }
+    </script> 
+</body>
