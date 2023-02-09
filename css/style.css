@@ -749,14 +749,14 @@ nav .menubar:hover{
    align-items: center;
    justify-content: space-between;
 }
-.footer .text .social i{
+.footer .text .social a{
    font-size: .8rem;
    color: #01c38d;
    margin-right: .5rem;
    cursor: pointer;
    transition: all 0.2s linear;
 }
-.footer .text .social i:hover{
+.footer .text .social a:hover{
     transform: translateY(-5px);
 }
 .footer p{
@@ -766,14 +766,14 @@ nav .menubar:hover{
 .footer p span{
     color: #01c38d;
 }
-.footer a{
+.footer .top{
     text-decoration: none !important;
     font-size: .8rem;
     font-weight: 600;
     color: #ffffff;
     cursor: pointer;
     transition:  all 0.4s linear;
-    padding: 10px 15px;
+    padding: 12px 15px;
     border-radius: 50%;
     background-color: #696E79;
     border: none;
