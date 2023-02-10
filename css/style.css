@@ -783,7 +783,7 @@ nav .menubar:hover{
     right: 2%;
     opacity: .5;
 }
-.footer a:hover{
+.footer .top:hover{
    opacity: 1;
    transform: translateY(-5px);
    color: #01c38d;
